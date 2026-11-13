@@ -1,0 +1,1002 @@
+HTTP [18:31:43.221 2026-11-13] GET https://nexus.zenithmmo.com/api/status -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:43 GMT
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-tYWEmpNhQ9m4SJr1lb/DcLKcGls"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OH4W4qMNxaA7qBa13IHtWmAzULojiHYAzrQpG1ZizOTsln2h2U4D7GD9K%2F0nC9gcelCkcYvaqV%2BvSXl9pDEJS4CEIoWLUMRb7zAZUB4UeKYGUcDOeQXHiS22lUiHx3OV%2BIlogvM%3D"}]}
+Server: cloudflare
+CF-RAY: a59f82f98ab99847-DUS
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+--- Response body
+{"message":"","loginEnabled":true}
+
+
+HTTP [18:31:44.112 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:44 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=h3DxIeTjbGnSLM8S63r5udt9MNvWWDVMZoPR7lMerajWD7osw2v%2BeGwGtAarBXPHRLCsPgUYyL1S9eHdFKbpnGPgn3JLIvHve8NDKzBaYzscUF9eczxO3%2BZ5dmhCOv7jzkYPqxw%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f8300ab6a9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f8300ab6a9847',t:'MTc5NDU5MTEwNA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f8300ab6a9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:31:48.831 2026-11-13] GET https://nexus.zenithmmo.com/api/news/dev -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:48 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"186-sMWA4Zg45AHgK5JMD7723akpvTI"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=niRoAdzaVmnQOBjw7CH3YEiqYhDizWVFpFUNCMb%2B%2FHQS5ds8QsChXmZgpPGVaklYahZBvn3q5Ltj0ZjMi1PbPfL7s0OXG0XA87yRr%2B6rrsY64ql%2BIcGSjcwW9omPCsFlQQCjtTY%3D"}]}
+Server: cloudflare
+CF-RAY: a59f831e49d99847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+[{"time":"2021-05-02T11:26:00.000Z","title":"Hello Developers!","content":"You are currently using DEVELOPMENT settings. These are the correct settings when you are on branches /develop or /minor. Make sure to connect to a shard the works well with your client / current version in Unity.\n\n\u003Ci\u003EThis\u003C/i\u003E is a test of text formatting.\n\u003Ccolor=#00FFFF\u003EThis\u003C/color\u003E is a test of font color."}]
+
+
+HTTP [18:31:48.990 2026-11-13] GET https://nexus.zenithmmo.com/api/build/56557 -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:49 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5a6-Ti856jYdUQQNGlfCHVtf6XB/lVU"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iKeoArsZLo63uXZFMLnmOKOasCQhKEIkRRUUx4xuNT7sJ8wehZR%2BcVO37smdk1lMbWd3FxBz6ohmS4AFnnoe1%2FfMrBj4YHVB%2FlPKkPCWqNCH%2F%2Fs%2Fnsw%2BXcvIpeGU0B3eKsuySzc%3D"}]}
+Server: cloudflare
+CF-RAY: a59f831f4ba44f64-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"environment":"prod","featureFlags":{"FULL_BODY_TRACKING":1,"REROLL":1,"SUMMONING":1,"BUG_CATCHING":1,"BOARD_GAMES":1,"BUG_CATCHING_TRAP_PULL":0,"FIX_DUPLICATED_ITEM_STACKS_ON_LOGIN":1,"USE_LOCAL_SYNTH_STATIONS":1,"SEND_QUEST_MESSAGES_FOR_CONSUMING_FOOD":1,"IGNORE_ALL_TIME_LIMITS":0,"USE_NEW_HUD":0,"USE_RADIAL_MENU":0,"ALLOW_SOCIAL_MODE":0,"ENABLE_INVENTORY_SORTING":0,"DELETE_ALL_OWNED_ITEMS_ON_LOGOUT":1,"ENABLE_TOXMOD_PSVR":0,"WINTER_HOLIDAY_EVENT":0,"COSMETIC_EVENTS_2":1,"MAGITEK_EVENT":1,"SHOW_DEPRECATED_BUILD_PANEL":1,"AIM_ASSIST_TOGGLE":1,"DEBUG_RENDERING":0,"ENABLE_GUEST_LOGIN":0,"NDA_BUILD":0,"NO_STREAMING":0,"PVP_ARENA":1,"PVP_FF_MODE":0,"UNITY_LOGS_OFF":1,"WEAKPOINT_TESTS":0,"LIFESKILLS_HARVESTING":1,"CYBER_NINJA":1,"PERFORMANCE_METRICS":1,"VERSION131":1,"VERSION132":1,"NUKE_LIGHT_PROBES":1,"VERSION14":1,"LOWER_QUEST3_GRASS":1,"DISABLE_REFLECTION_PROBE":1,"UNLIMITED_PLAYER_HOUSING":0,"PROFILING_MODE":0,"NO_GC_AFTER_SCENE_UNLOAD":1,"LIGHT_TRAILS":0,"LEADERBOARDS":1,"HIGH_FIVES":0,"DONT_FREE_MEMORY":1,"DEBUG_SHORTCUTS":0,"DEV_SETTINGS":0,"ALWAYS_OFFER_QUESTS":0,"ALWAYS_OFFER_DEVMARKED_QUESTS":0,"TEST_IAP_FOR_FREE":0,"S2S_PROD":1,"FORCE_QUEST_STATE":1,"CROSS_SHARD_CITIES":1,"ALWAYS_FAIL_PLAYFAB":0,"DONT_DO_SEASONAL_RESET_IF_NO_PERSISTENCE":0,"LEADERBOARD_TESTS":0,"S2S_QA":0,"FPS_DISPLAY":0,"INFINITE_VOIP_DISTANCE_ENABLED":0,"SILENCE_PLAYFAB":1,"DISABLE_FAST_FLY_IN_INSTANCES":1,"ALLOW_FAST_FLY":1,"PLAYER_TRADING":1}}
+
+
+HTTP [18:31:50.717 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:50 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CEuJz7gs1XC4cmU2SCxqTzvlElyC7cWWqXk4YMCR7zzLWN4W5ecFXih%2BxMrQOaYFdGNfDxUubnJ6zUcgtxhImg1Vjzw9CFXpKDeOgg%2FDFGhgCug%2BWRfFh7Ru737hKt%2B1bkN0NdM%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f8329fac14f64-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f8329fac14f64',t:'MTc5NDU5MTExMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f8329fac14f64',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:31:51.371 2026-11-13] GET https://nexus.zenithmmo.com/api/build/56557 -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:51 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5a6-Ti856jYdUQQNGlfCHVtf6XB/lVU"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H6cr424cSCQw1IHVFjH2OY5m0SAASGNyJJ3bAo5hNlaX8A1jdFdiDGdnANAE5siUN3M9NmaDwi3N7QQT%2Fdh4v1HbXp9pc8rk4y20VDzcOsmrIUVPsQ04X2Er33oP8bHCEj%2BjPFU%3D"}]}
+Server: cloudflare
+CF-RAY: a59f832e4baf4f64-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"environment":"prod","featureFlags":{"FULL_BODY_TRACKING":1,"REROLL":1,"SUMMONING":1,"BUG_CATCHING":1,"BOARD_GAMES":1,"BUG_CATCHING_TRAP_PULL":0,"FIX_DUPLICATED_ITEM_STACKS_ON_LOGIN":1,"USE_LOCAL_SYNTH_STATIONS":1,"SEND_QUEST_MESSAGES_FOR_CONSUMING_FOOD":1,"IGNORE_ALL_TIME_LIMITS":0,"USE_NEW_HUD":0,"USE_RADIAL_MENU":0,"ALLOW_SOCIAL_MODE":0,"ENABLE_INVENTORY_SORTING":0,"DELETE_ALL_OWNED_ITEMS_ON_LOGOUT":1,"ENABLE_TOXMOD_PSVR":0,"WINTER_HOLIDAY_EVENT":0,"COSMETIC_EVENTS_2":1,"MAGITEK_EVENT":1,"SHOW_DEPRECATED_BUILD_PANEL":1,"AIM_ASSIST_TOGGLE":1,"DEBUG_RENDERING":0,"ENABLE_GUEST_LOGIN":0,"NDA_BUILD":0,"NO_STREAMING":0,"PVP_ARENA":1,"PVP_FF_MODE":0,"UNITY_LOGS_OFF":1,"WEAKPOINT_TESTS":0,"LIFESKILLS_HARVESTING":1,"CYBER_NINJA":1,"PERFORMANCE_METRICS":1,"VERSION131":1,"VERSION132":1,"NUKE_LIGHT_PROBES":1,"VERSION14":1,"LOWER_QUEST3_GRASS":1,"DISABLE_REFLECTION_PROBE":1,"UNLIMITED_PLAYER_HOUSING":0,"PROFILING_MODE":0,"NO_GC_AFTER_SCENE_UNLOAD":1,"LIGHT_TRAILS":0,"LEADERBOARDS":1,"HIGH_FIVES":0,"DONT_FREE_MEMORY":1,"DEBUG_SHORTCUTS":0,"DEV_SETTINGS":0,"ALWAYS_OFFER_QUESTS":0,"ALWAYS_OFFER_DEVMARKED_QUESTS":0,"TEST_IAP_FOR_FREE":0,"S2S_PROD":1,"FORCE_QUEST_STATE":1,"CROSS_SHARD_CITIES":1,"ALWAYS_FAIL_PLAYFAB":0,"DONT_DO_SEASONAL_RESET_IF_NO_PERSISTENCE":0,"LEADERBOARD_TESTS":0,"S2S_QA":0,"FPS_DISPLAY":0,"INFINITE_VOIP_DISTANCE_ENABLED":0,"SILENCE_PLAYFAB":1,"DISABLE_FAST_FLY_IN_INSTANCES":1,"ALLOW_FAST_FLY":1,"PLAYER_TRADING":1}}
+
+
+HTTP [18:31:53.650 2026-11-13] GET https://ramenvr.sfo3.digitaloceanspaces.com/builds/ptr_meta_data.json -> 200
+--- Request headers
+Accept: */*
+Host: ramenvr.sfo3.digitaloceanspaces.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Accept-Ranges: bytes
+x-rgw-object-type: Normal
+ETag: "a7e4563ad9d4101d3f7ba798751949b0"
+x-amz-request-id: tx00000aba23af9a11575dc-006af74989-b5802d3a-sfo3a
+Date: Fri, 13 Nov 2026 17:31:53 GMT
+Vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Content-Length: 1233
+Last-Modified: Wed, 07 Feb 2024 22:39:44 GMT
+Content-Type: application/json
+--- Response body
+{"47091":{"prodOrPtr":"prod","code":"","requireNDA":false,"shardTagOverride":"prod-build31"},"47977":{"prodOrPtr":"prod","code":"","requireNDA":false,"shardTagOverride":"skill-tree"},"52018":{"prodOrPtr":"PTR","code":"pre-alpha","requireNDA":true,"shardTagOverride":""},"52120":{"prodOrPtr":"PTR","code":"pre-alpha","requireNDA":true,"shardTagOverride":""},"52204":{"prodOrPtr":"PTR","code":"pre-alpha","requireNDA":true,"shardTagOverride":""},"52209":{"prodOrPtr":"PTR","code":"pre-alpha","requireNDA":true,"shardTagOverride":""},"52213":{"prodOrPtr":"PTR","code":"pre-alpha","requireNDA":true,"shardTagOverride":""},"53278":{"prodOrPtr":"PTR","code":"Alpha012924","requireNDA":true,"shardTagOverride":""},"53319":{"prodOrPtr":"PTR","code":"Alpha012924","requireNDA":true,"shardTagOverride":""},"53338":{"prodOrPtr":"PTR","code":"Alpha012924","requireNDA":true,"shardTagOverride":""},"53348":{"prodOrPtr":"PTR","code":"Alpha012924","requireNDA":true,"shardTagOverride":""},"53424":{"prodOrPtr":"PTR","code":"Alpha012924","requireNDA":true,"shardTagOverride":""},"53531":{"prodOrPtr":"PTR","code":"PrivAlphaIR","requireNDA":true,"shardTagOverride":""}}
+
+
+HTTP [18:31:55.447 2026-11-13] POST https://skywave.zenithmmo.com/api/game/checksteam -> 200
+--- Request headers
+Accept: */*
+Host: skywave.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Content-Type: application/json
+Content-Length: 551
+auth: Bearer be4ba5c7-4314-48c6-8b97-9991cae08c51
+X-Unity-Version: 2022.3.12f1
+--- Request body
+{"code":"ec0831e1034a9Bc2Ec8049dCcBd6cC46479f23ca9Db00df03acad41a97d346c9d0199260db86c196E9d7909DEF8A5024bae23740476ff8ea3f6623cab755e6578E9c77126d195adcCAbefac880ff930220b50c36f997112900c8E7e91d49ad2E729eC3c4a2fca92eB8e2e82c65eb10c2c1cB62B97CC3496f9079e327f17C17Abcf42baDA78779630eF82132c9E467795553979352f4d7597AdB87dd53830a26Eb0EeF294ecddab088feC4398C6839dD4F8259f84Cb4369A6367E4bBeedc381729A2A860FD26AAf4e658A0b091a87E1Ad0c30f5ee12818993f8468A0f7159AE4187E863F2431C1dca391eAea799EB32dE","user_id":"42b49b3ce8e62927e","version":"56557","ps5":false}
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:55 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Cache-Control: no-store, must-revalidate, no-cache, private
+Pragma: no-cache
+Set-Cookie: __xh_fo=gockKw30RWrc.Gp3K99i2BNVzXfGHWtdIAyHFeMjryy-3239983419.6901988-5.7.9.1-ovG_NQSGKZUmqsutc7l4FFOMvZIzevG3Ex4YPV94AIL3MwVoKuc69TEjvO7ckXbpBKH23levelIvvsUgDptm11YTzk8yMuLWc31AUYHBo0uR1XLF8tLuBAYbO34e4RXk; LiyjPlik; IzpbLseu=Zayv; Ezbltlqrrfl; Slsqmq; Uhma=/; Clvqfm=ntjmdqy.gnivbseoi.elt; Euriuxv=Erd, 04 Akd 5907 46:97:06 JZS
+ETag: W/"54-jgxrnXRA1IhC5FpzgzlV+ORXm1M"
+Vary: Accept-Encoding
+Server: cloudflare
+x-do-app-origin: 181e617d-e6a6-11ec-b1dc-0c42a19a82a7
+x-do-orig-status: 200
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=r0ypCaj4%2BJxt0cKUMNSEDaSWCxwd%2BtRunqOEZWelw41vRZSNDIZfyrOogcuFFDticCLurpCenOdzGyWseGUcnNyPkfhVRpnrj0tCVXx%2BvTHBD0SEFJFZ1ritNbLA1qs3%2FpTWjFwvCw%3D%3D"}]}
+CF-RAY: a59f83413d58a3eb-DUS
+Content-Type: application/json; charset=utf-8
+Expires: -1
+--- Response body
+{"hasAccount":true,"email":"pjizqwzf@yroad.flq","username":"rlwwhxqp","isPTR":false}
+
+
+HTTP [18:31:56.435 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:31:56 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=f%2FSi48kOR0FiqMny0s6JYWma6NXmaaK8AwOh10peAm4mmzPTJ2gtFEUt01VNvbTqQUebM8SvM4aO%2Fjrutxx0lvg1wPO5n0SEFJkIeu0aq0IGVTJnyeSRySZD3ST0qrc1s9swX8k%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f834de9fd4f64-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f834de9fd4f64',t:'MTc5NDU5MTExNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f834de9fd4f64',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:00.252 2026-11-13] POST https://skywave.zenithmmo.com/api/game/loginsteam -> 200
+--- Request headers
+Accept: */*
+Host: skywave.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Content-Type: application/json
+Cookie: __ud_ke=ijqyYl06DJcq.Oq7Q76j1BMIjDuIIVryEWrOAmMzmkj-7454538439.5265683-3.7.9.5-fdF_AREVOZLsnpgzl6g3MBRMbQPrghO4Fg5YSZ95QIZ6EjEeEum52XJqqM4rhBafOHX67ccsswVvohDuNuni61KXpf8wVqDDd95PQIQGs8tL9RRI2cEdXWOlB33h4DQm
+Content-Length: 551
+auth: Bearer be4ba5c7-4314-48c6-8b97-9991cae08c51
+X-Unity-Version: 2022.3.12f1
+--- Request body
+{"code":"ec0831e1034a9Bc2Ec8049dCcBd6cC46479f23ca9Db00df03acad41a97d346c9d0199260db86c196E9d7909DEF8A5024bae23740476ff8ea3f6623cab755e6578E9c77126d195adcCAbefac880ff930220b50c36f997112900c8E7e91d49ad2E729eC3c4a2fca92eB8e2e82c65eb10c2c1cB62B97CC3496f9079e327f17C17Abcf42baDA78779630eF82132c9E467795553979352f4d7597AdB87dd53830a26Eb0EeF294ecddab088feC4398C6839dD4F8259f84Cb4369A6367E4bBeedc381729A2A860FD26AAf4e658A0b091a87E1Ad0c30f5ee12818993f8468A0f7159AE4187E863F2431C1dca391eAea799EB32dE","user_id":"42b49b3ce8e62927e","version":"56557","ps5":false}
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:00 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Cache-Control: no-store, must-revalidate, no-cache, private
+Pragma: no-cache
+cf-cache-status: DYNAMIC
+ETag: W/"1e6-OE6P7JZr6ZXHX3cHmlmVaJWb3FA"
+Vary: Accept-Encoding
+Server: cloudflare
+x-do-app-origin: 181e617d-e6a6-11ec-b1dc-0c42a19a82a7
+x-do-orig-status: 200
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MleT1D0Kbur9N%2FFJqVhkIvN5HEDD1VCvqWpz5h1K2d1Uu95eJ0mw5pqBnpWFRlKpIUAj3wHACFGOd3xSjPolEjWOIyxkc7STkevMH%2Fq%2BTiNYvfDrcImg9XC6dSNA2SVZid8U5Iw9Bw%3D%3D"}]}
+CF-RAY: a59f835e0cb0a3eb-DUS
+Content-Type: application/json; charset=utf-8
+Expires: -1
+--- Response body
+{"errorCode":0,"message":"Logged in using Native ID","success":true,"sessionTicket":"KE71ZZ66IN9FZ7O-C7VLYT4J4S962K1H-138E5E78596528L5-6ZW5R-5LH14LJ73K2A2E6-j2NjaDE7PYafOMgMc01J/M0oHrgQKAXbtr4n9VvFBWi=","authToken":"shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM","displayName":"rlwwhxqp","username":"rlwwhxqp","playFabId":"E435C489FAa7B65"}
+
+
+HTTP [18:32:00.440 2026-11-13] GET https://nexus.zenithmmo.com/api/account/prod/preferences -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Authorization: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:00 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"109d-oS5kZBadGF5Ea+d4ajydNHMvs3Q"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GTHRX9ZLmUVQvU5CdqHEFAMfIO%2BYBNelTXQoBEg6YcppsDZ7qd0432U%2BeJhNN08hCPSxVQnmWxtyItDo%2FUQGd1FZlzbfNi52AdNdIE8D9eYqYY%2BbtFsG5zzOy0eXRCDx0FvxBFc%3D"}]}
+Server: cloudflare
+CF-RAY: a59f8366de1b4f64-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"shardPrefs":{"homeShard":"\taether_us_east","recentShards":["\taether_us_east","defender_eu","titan_eu","crimson_us_west","dragonfruit_eu","protector-us-west","defender-eu"],"currentSortOrder":3,"currentRegionFilter":null,"homeShardReimagined":""},"homeShardData":{"homeShardName":"defender_3_eu","homeShardLastUpdated":{"value":132879294123268430}},"characterPrefs":{"currentCharacterId":"9fDA04dc601E78c8","characterActivities":[{"characterId":"9fDA04dc601E78c8","activeActivityIds":[],"finishedActivityIds":[]},{"characterId":"78Aa403Db05d7938","activeActivityIds":[],"finishedActivityIds":[]}],"currentCharacterName":"MxO-Neo"},"comfortPreferences":{"falling":0,"focusUI":false,"gliding":0,"oobDash":false,"turning":4,"climbing":0,"oobBlink":false,"flickDash":false,"hudConfig":{"swap":false,"handPrefs":{"LeftWrist":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"RightWrist":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"LeftBackhand":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"RightBackhand":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}}},"leftWrist":2,"questPrefs":{"Palm":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"Side":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"Attached":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"Backhand":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}}},"rightWrist":1,"legacyPrefs":{"scale":0,"position":{"X":0,"Y":0,"Z":0},"rotation":{"X":0,"Y":0,"Z":0}},"leftBackhand":0,"useLegacyHud":true,"rightBackhand":0,"questHUDLocation":0,"alwaysShowInCombat":true},"oobSticky":true,"SmoothTurn":false,"locomotion":0,"devSettings":{"devSwim":false,"devSpeed":false,"nosDebug":false,"invulnerable":false,"forceInCombat":false,"respawnInPlace":false,"disableVignette":false,"invisibleEnemies":false,"invisiblePlayers":false,"sprintIsDevSpeed":false,"unlimitedStamina":false,"featureFlagOverrides":{}},"glidingMode":2,"volumeMusic":0.724203467,"volumeVoice":5,"allowJumping":true,"headMovement":false,"grapplingHook":0,"volumeSoundFX":0.987648,"equipmentSlots":{"LEFT_HIP":{"size":0.06,"position":{"X":-0.204000011,"Y":0,"Z":0.0610000044},"rotation":1},"RIGHT_HIP":{"size":0.06,"position":{"X":0.204000011,"Y":0,"Z":0.0610000044},"rotation":1},"QUICKSLOT_ONE":{"size":0.06,"position":{"X":0.0510000028,"Y":-0.102000006,"Z":0.204000011},"rotation":1},"QUICKSLOT_ZERO":{"size":0.06,"position":{"X":-0.0510000028,"Y":-0.102000006,"Z":0.204000011},"rotation":1},"BACKSLOT_SPECIAL":{"size":0.06,"position":{"X":0,"Y":0.474,"Z":-0.2},"rotation":0}},"oobSmartCamera":true,"smoothTurnSpeed":1,"volumeVoiceover":1,"allowCameraShake":false,"volumeAmbientSFX":0.0650605261,"audioDeviceConfig":{"WINDOWS_STEAM":{"inputDeviceID":"{0.0.1.00000000}.{edc99817-2a5d-43ad-8384-6995e6cd424e}","outputDeviceID":"Default System Device"},"WINDOWS_OCULUS":{"inputDeviceID":"Default System Device","outputDeviceID":"{0.0.0.00000000}.{76ba0bed-2d62-42a4-b51a-e530165ebc6d}"}},"oobTurnOnTeleport":true,"swapLocomotionHand":false,"swapProjectileHand":false,"overrideAimAssistOn":false,"hasPlayerSetupComfort":true,"equipmentSlotsReimagined":{"LEFT_HIP":{"size":0.001,"position":{"X":-0.2,"Y":0,"Z":0.06},"rotation":1},"RIGHT_HIP":{"size":0.06,"position":{"X":0.2,"Y":0,"Z":0.06},"rotation":1},"QUICKSLOT_ONE":{"size":0.06,"position":{"X":-0.14,"Y":0,"Z":0.18},"rotation":1},"QUICKSLOT_ZERO":{"size":0.06,"position":{"X":-0.22,"Y":0,"Z":0.08},"rotation":1},"BACKSLOT_SPECIAL":{"size":0.06,"position":{"X":0,"Y":0.25,"Z":-0.2},"rotation":1},"BACKSLOT_SPECIAL_LEFT":{"size":0.01,"position":{"X":0,"Y":0.2,"Z":-0.2},"rotation":1},"BACKSLOT_SPECIAL_RIGHT":{"size":0.01,"position":{"X":0,"Y":0.2,"Z":-0.2},"rotation":1}},"fallingVignetteIntensity":0.9,"glidingVignetteIntensity":0.8,"grapplingHookAirtimeMode":true,"turningVignetteIntensity":0.8,"useTriggerToPullArrowNew":false,"climbingVignetteIntensity":0.6,"grapplingHookSnapOnAttach":true,"grapplingHookSnapOnRelease":false,"useHandLocomotionDirection":false,"locomotionVignetteIntensity":0.4,"autoTurnToWalkDirectionInOOB":false,"GrapplingHookVignetteIntensity":0.75}}
+
+
+HTTP [18:32:00.505 2026-11-13] GET https://nexus.zenithmmo.com/api/experiment/prod/client-list -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Authorization: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:00 GMT
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1d-CgXSSiFtgZnr6eY0JWYZTnDLLlU"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LOCdc%2BHFMY3G6pHZAmUk%2B3BUAFH7%2Bt1gLxLJiHeSgML%2FQM3A9Us%2FqwyKnMyKbNAVRxF9IB0GJOUU4dcJ1oR53jKtZTfhM68gdulUfGm3EUrszVE2m%2BptceJz7Aw9AjziJnAidDw%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83674f8e9847-DUS
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+--- Response body
+{"frvl-oelwy-hkiqkkqfs":true}
+
+
+HTTP [18:32:00.715 2026-11-13] GET https://nexus.zenithmmo.com/api/account/prod/relations -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Authorization: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:00 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"34-D/W6p0FlT0nNKiyT7enrACCm150"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fB2Ld7zKsLLcvdkXl9NyThoVehiPzgoxABfIOoeJX4QzUt0V6ZWojN0c0WqubbMV6pQoDTG3d6F7dqmYKx1ERNhVtujdLWJB9NIa5qiFKXJzWwD1iR3gcOSxegVTtGvfDSwMpG8%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83688a3c9847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"muted":[],"mutedBy":[],"blocked":[],"reported":[]}
+
+
+HTTP [18:32:02.067 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:02 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4EF1N2WboitTXHbKZc9mkf1%2BDgulh5loIoFL%2BOcYrHFBTcNXUnHvSAWQQ8P1vQt%2F4ede%2BKhKiNpotyoRaZ38%2FBEn0zo19WvIWwz%2BtsCXuzxyGRoNvSQt2%2FcAP7ldhShlKgGPxPc%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f83711c849847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f83711c849847',t:'MTc5NDU5MTEyMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f83711c849847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:04.987 2026-11-13] realm-list-original https://nexus.zenithmmo.com/api/realm/list/prod-build40 -> 0
+--- Request headers
+--- Request body
+{"tidekeeper-oceania":{"name":"tidekeeper_oceania","region":"oceania","workerHost":"34.151.121.204","workerPort":30046,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"defender-eu":{"name":"defender_eu","region":"eu","workerHost":"34.78.7.58","workerPort":32407,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"aether-us-east":{"name":"\taether_us_east","region":"us-east","workerHost":"35.227.81.236","workerPort":32732,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"titan-eu":{"name":"titan_eu","region":"eu","workerHost":"35.205.6.88","workerPort":32242,"load":0.04285714285714286,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"acolyte-us-west":{"name":"acolyte_us_west","region":"us-west","workerHost":"35.233.229.124","workerPort":31453,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"}}
+--- Response headers
+
+
+HTTP [18:32:04.990 2026-11-13] GET https://nexus.zenithmmo.com/api/realm/list/prod-build40 -> 200
+Info: realm list rewritten: tidekeeper-oceania: 34.151.121.204:30046 -> 127.0.0.1:27777; defender-eu: 34.78.7.58:32407 -> 127.0.0.1:27778; aether-us-east: 35.227.81.236:32732 -> 127.0.0.1:27779; titan-eu: 35.205.6.88:32242 -> 127.0.0.1:27780; acolyte-us-west: 35.233.229.124:31453 -> 127.0.0.1:27781
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Authorization: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+Authentication: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:04 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"3af-6lDaPl2uh70+FRLYH5Rg/Q91t/s"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lM%2FJFY%2BCPOXlOWsfOnWfHjTlkZpvymVT82vWs1vrUzs0TFlXGKG%2BNvAwnSc8FlQhneiiv5AAAnSmA7r1v67AHyutIyRfzfsYxr2%2BjnKAONypx9Q9KV%2Fw9mf8E17ogGTbG9qLQsU%3D"}]}
+Server: cloudflare
+CF-RAY: a59f838209929847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"tidekeeper-oceania":{"name":"tidekeeper_oceania","region":"oceania","workerHost":"127.0.0.1","workerPort":27777,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"defender-eu":{"name":"defender_eu","region":"eu","workerHost":"127.0.0.1","workerPort":27778,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"aether-us-east":{"name":"\taether_us_east","region":"us-east","workerHost":"127.0.0.1","workerPort":27779,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"titan-eu":{"name":"titan_eu","region":"eu","workerHost":"127.0.0.1","workerPort":27780,"load":0.04285714285714286,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"acolyte-us-west":{"name":"acolyte_us_west","region":"us-west","workerHost":"127.0.0.1","workerPort":27781,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"}}
+
+
+HTTP [18:32:05.136 2026-11-13] GET https://nexus.zenithmmo.com/api/news/prod -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:05 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"144-rJ4PqryyL1FqhRScT8LhvMhqlvg"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=n%2FrGtgcfX4n7go1ANYUqZJlg80QKCXYQIcqyxAIrF9JaGOo4%2FViE14dM3WfqbRePc3OMk3xWknNL8R1dulr5XDUNi2Ng0Kwi%2BFhg%2BWuxm%2BrWOT1VSH0nIlDN2OmU82nRS%2F1OjkQ%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83842b2a4f64-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+[{"time":"2026-11-03T16:02:55.851Z","title":"Shutdown Notice","content":"Zenith\u2019s servers will permanently shut down on December 18, 2026, at 10:00 AM PST, making the game inaccessible. Please do not purchase any more in-game currency. You may continue spending your existing currency in Infinite Realms until shutdown."}]
+
+
+HTTP [18:32:05.169 2026-11-13] POST https://nexus.zenithmmo.com/api/realm/join -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Content-Type: application/json
+Content-Length: 319
+X-Unity-Version: 2022.3.12f1
+--- Request body
+{"projectId":"beta_mexico_eight_889","playFabId":"E435C489FAa7B65","deploymentId":"aether-us-east","titleId":"4BB7B","token":"shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM"}
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:05 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"2f3-rHQ1V0FhMmnAFHYaQSpZ5oQvUns"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PoskiNGSqIzRjGt0hLj6BPYD%2Bw7FJxRCRQ5hrgGnhYL2LilMttRE4i%2FK7BHA9tsI%2BKf4nJZmurPPfg38Cg27FkLmGHYmlAhcpQPOIIJjjff9ubJGUor5FwVVMFVGR0ThG2D6zPw%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83848f209847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"joinToken":"vkQgpQggXiRTKtN3XqPnBmB6hUU0UaoRIIQ7.ujMgTBZnuL2kMDP7CdZpdRejbj34bv7mDMY2GtvskNtch6W8P4hrVueoTzFhBeUpLjSpOyXsCJ03GfLaBHK6XaEhSgnsOODbBsD2CFOlVltedMR1GwmwQok5PNqxFZL1HYSncBCjHvG8VSA7GHU5SaK8.54eTmE2T3YcF5PesnswCs_KdEn-7MxFdGQeoPd8SItN","identityToken":"uiEbvLykVyAPGnU7MkZsLfW7oOY0AxiJHAU5.zwO5rOHdHvfjIC0vhJlDeHbrnmAxZND5DB4sqMDlUtSUTWzlOBA7VKRLMUUSIiWfRPTnFJQnnV0zHNO8PkPhnQfnrd45cz5sNFT8OklomPJ9MefoChr5WVxlHCY5BEEsxSIkQiC9HNP9XPE8QwC0.fQDqEXRhdd-A-FSyJGT0M7iplNw0DUeMKVS2g9TlFDw","token":"uiEbvLykVyAPGnU7MkZsLfW7oOY0AxiJHAU5.zwO5rOHdHvfjIC0vhJlDeHbrnmAxZND5DB4sqMDlUtSUTWzlOBA7VKRLMUUSIiWfRPTnFJQnnV0zHNO8PkPhnQfnrd45cz5sNFT8OklomPJ9MefoChr5WVxlHCY5BEEsxSIkQiC9HNP9XPE8QwC0.fQDqEXRhdd-A-FSyJGT0M7iplNw0DUeMKVS2g9TlFDw","queuePosition":0}
+
+
+HTTP [18:32:05.366 2026-11-13] realm-list-original https://nexus.zenithmmo.com/api/realm/list -> 0
+--- Request headers
+--- Request body
+{"infinite-realm-01-asia":{"name":"infinite_realm_01_asia","region":"asia","workerHost":"35.221.198.166","workerPort":31005,"load":0.020833333333333332,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"infinite-realm-01-eu":{"name":"infinite_realm_01_eu","region":"eu","workerHost":"35.189.206.234","workerPort":31760,"load":0.0625,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"soulless":{"name":"Soulless","region":"us-west","workerHost":"34.82.168.253","workerPort":31465,"load":0,"tags":["prod-build40_psn"],"version":"cs-56555--develop"},"tidekeeper-oceania":{"name":"tidekeeper_oceania","region":"oceania","workerHost":"34.151.121.204","workerPort":30046,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-01-oceania":{"name":"infinite_realm_01_oceania","region":"oceania","workerHost":"34.116.101.216","workerPort":30488,"load":0,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"defender-eu":{"name":"defender_eu","region":"eu","workerHost":"34.78.7.58","workerPort":32407,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"prod-instances-2":{"name":"prod-instances-2","region":"us-east","workerHost":"35.196.23.100","workerPort":32698,"load":0,"tags":["4BB7B","instances"],"version":"cs-56555--develop"},"aether-us-east":{"name":"\taether_us_east","region":"us-east","workerHost":"35.227.81.236","workerPort":32732,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-00-us-west":{"name":"infinite_realm_00_us_west","region":"us-east","workerHost":"34.74.250.163","workerPort":30362,"load":0,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"prod-instances-1":{"name":"prod-instances-1","region":"us-west","workerHost":"35.230.107.81","workerPort":30861,"load":0,"tags":["4BB7B","instances"],"version":"cs-56555--develop"},"titan-eu":{"name":"titan_eu","region":"eu","workerHost":"35.205.6.88","workerPort":32242,"load":0.04285714285714286,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"acolyte-us-west":{"name":"acolyte_us_west","region":"us-west","workerHost":"35.233.229.124","workerPort":31453,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-01-us-west":{"name":"infinite_realm_01_us_west","region":"us-west","workerHost":"34.127.100.122","workerPort":31496,"load":0.020833333333333332,"tags":["prod-build40_rei"],"version":"cs-56555--develop"}}
+--- Response headers
+
+
+HTTP [18:32:05.366 2026-11-13] GET https://nexus.zenithmmo.com/api/realm/list -> 200
+Info: realm list rewritten: infinite-realm-01-asia: 35.221.198.166:31005 -> 127.0.0.1:27782; infinite-realm-01-eu: 35.189.206.234:31760 -> 127.0.0.1:27783; soulless: 34.82.168.253:31465 -> 127.0.0.1:27784; tidekeeper-oceania: 34.151.121.204:30046 -> 127.0.0.1:27777; infinite-realm-01-oceania: 34.116.101.216:30488 -> 127.0.0.1:27785; defender-eu: 34.78.7.58:32407 -> 127.0.0.1:27778; prod-instances-2: 35.196.23.100:32698 -> 127.0.0.1:27786; aether-us-east: 35.227.81.236:32732 -> 127.0.0.1:27779; infinite-realm-00-us-west: 34.74.250.163:30362 -> 127.0.0.1:27787; prod-instances-1: 35.230.107.81:30861 -> 127.0.0.1:27788; titan-eu: 35.205.6.88:32242 -> 127.0.0.1:27780; acolyte-us-west: 35.233.229.124:31453 -> 127.0.0.1:27781; infinite-realm-01-us-west: 34.127.100.122:31496 -> 127.0.0.1:27789
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+Authorization: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+Authentication: Bearer shGsaPdfWyUFFkR4YkIuAvV7rUE2TiqIRFW2.jpUhS2MrfW39T9wgRhkjCGS1V5JJHgrSJtCGQEDOHkrunw0oKIM8GbXjFZcpbdRnFmjszJV6EJk6TNF9GUBdEKdfVEpmNarbRlw0PrAxAPUxwH.ycW1AQ4J6mEh_j8OMn2F7z3aAgGCBc-yc2y1K2auSXM
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:05 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"9ba-rMq8MWxgaqAof0QqUNZziM8HH1c"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vC%2Fywi7dLnKp6V7yoz9A%2BT6kc2Pn9J888Hn5wt5XDn4IxXZNaTHN9ajd2yxHZ7ze50OzUkxM6blJXJ8WyNQbUFqu2tpm5k7yNOy4LPz5iGXdhacEucW%2BD4ldOs1Bl3N7Z6wFgzI%3D"}]}
+Server: cloudflare
+CF-RAY: a59f8385a99e9847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"infinite-realm-01-asia":{"name":"infinite_realm_01_asia","region":"asia","workerHost":"127.0.0.1","workerPort":27782,"load":0.020833333333333332,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"infinite-realm-01-eu":{"name":"infinite_realm_01_eu","region":"eu","workerHost":"127.0.0.1","workerPort":27783,"load":0.0625,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"soulless":{"name":"Soulless","region":"us-west","workerHost":"127.0.0.1","workerPort":27784,"load":0,"tags":["prod-build40_psn"],"version":"cs-56555--develop"},"tidekeeper-oceania":{"name":"tidekeeper_oceania","region":"oceania","workerHost":"127.0.0.1","workerPort":27777,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-01-oceania":{"name":"infinite_realm_01_oceania","region":"oceania","workerHost":"127.0.0.1","workerPort":27785,"load":0,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"defender-eu":{"name":"defender_eu","region":"eu","workerHost":"127.0.0.1","workerPort":27778,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"prod-instances-2":{"name":"prod-instances-2","region":"us-east","workerHost":"127.0.0.1","workerPort":27786,"load":0,"tags":["4BB7B","instances"],"version":"cs-56555--develop"},"aether-us-east":{"name":"\taether_us_east","region":"us-east","workerHost":"127.0.0.1","workerPort":27779,"load":0,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-00-us-west":{"name":"infinite_realm_00_us_west","region":"us-east","workerHost":"127.0.0.1","workerPort":27787,"load":0,"tags":["prod-build40_rei"],"version":"cs-56555--develop"},"prod-instances-1":{"name":"prod-instances-1","region":"us-west","workerHost":"127.0.0.1","workerPort":27788,"load":0,"tags":["4BB7B","instances"],"version":"cs-56555--develop"},"titan-eu":{"name":"titan_eu","region":"eu","workerHost":"127.0.0.1","workerPort":27780,"load":0.04285714285714286,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"acolyte-us-west":{"name":"acolyte_us_west","region":"us-west","workerHost":"127.0.0.1","workerPort":27781,"load":0.014285714285714285,"tags":["4BB7B","prod-build40"],"version":"cs-56555--develop"},"infinite-realm-01-us-west":{"name":"infinite_realm_01_us_west","region":"us-west","workerHost":"127.0.0.1","workerPort":27789,"load":0.020833333333333332,"tags":["prod-build40_rei"],"version":"cs-56555--develop"}}
+
+
+HTTP [18:32:08.460 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:08 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kB4oJQjuYWZZ55Wn2Zjz4rQdVxwhTBqHSWrvDRiufrTlEnpE79dHIdMLnEIie1a3L%2Bb1Y5HpxagEMn3DbUGP19ojdUDwjgFwKGJhi5KbTIy5hanVPbN%2BtfbHtdmX0Pk%2BS%2BdKcJM%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f8398fa119847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f8398fa119847',t:'MTc5NDU5MTEyOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f8398fa119847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:14.248 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:14 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QoqTz42X0zghcRCPIyyF8UO6aKUxpKWeGUjIMKoFMuMD9nIv2YcE3n7hbsUAJE0OtgPk8PVubZ%2B7nluDEtOtRn9dxUwLaettPGUlWgIva7Wg8oSW%2F%2FsyCUVIig4Khd3ewuBi3%2Fg%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f83bd29eb9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f83bd29eb9847',t:'MTc5NDU5MTEzNA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f83bd29eb9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:15.751 2026-11-13] GET https://nexus.zenithmmo.com/api/tiny-content/prod/level_stats/public -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:15 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"8854-sYtbqWt5ozIeAlhFs/erivhkB0E"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LBRgLrp5gLKO3Ns11iW9kJsz1wgcKfHSIafdBbtDlFsoq9pjBKstL%2FIMMmz0XIVzST0NXktcdIZw3NKyGtSB1r5dtV7ZbX6AE8%2BBBl7DZd%2Bk%2B2UDecsdeRG75jte6Y99EF5bpHI%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83c51aa89847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+[{"hp":500,"rage":40,"level":1,"speed":11,"attack":10,"defense":110,"essence":0,"stamina":10,"support":10,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":550,"rage":40,"level":2,"speed":0,"attack":12,"defense":12,"essence":0,"stamina":10,"support":12,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":600,"rage":41,"level":3,"speed":0,"attack":14,"defense":14,"essence":0,"stamina":10,"support":14,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":650,"rage":41,"level":4,"speed":0,"attack":16,"defense":16,"essence":0,"stamina":10,"support":16,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":700,"rage":42,"level":5,"speed":0,"attack":18,"defense":18,"essence":0,"stamina":10,"support":18,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":750,"rage":42,"level":6,"speed":0,"attack":20,"defense":20,"essence":0,"stamina":10,"support":20,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":800,"rage":43,"level":7,"speed":0,"attack":22,"defense":22,"essence":0,"stamina":10,"support":22,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":850,"rage":43,"level":8,"speed":0,"attack":24,"defense":24,"essence":0,"stamina":10,"support":24,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":900,"rage":44,"level":9,"speed":0,"attack":26,"defense":26,"essence":0,"stamina":10,"support":26,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":950,"rage":44,"level":10,"speed":0,"attack":28,"defense":28,"essence":0,"stamina":10,"support":28,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1000,"rage":45,"level":11,"speed":0,"attack":30,"defense":30,"essence":0,"stamina":10,"support":30,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1050,"rage":45,"level":12,"speed":0,"attack":32,"defense":32,"essence":0,"stamina":10,"support":32,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1100,"rage":46,"level":13,"speed":0,"attack":34,"defense":34,"essence":0,"stamina":10,"support":34,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1150,"rage":46,"level":14,"speed":0,"attack":36,"defense":36,"essence":0,"stamina":10,"support":36,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1200,"rage":47,"level":15,"speed":0,"attack":38,"defense":38,"essence":0,"stamina":10,"support":38,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1250,"rage":47,"level":16,"speed":0,"attack":40,"defense":40,"essence":0,"stamina":10,"support":40,"className":"blade_master","crit_chance":10,"attack_speed":20,"casting_speed":20},{"hp":1300,"rage":48,"level":17,"speed":0,"attack":42,"defense":42,"essence":30,"stamina":10,"support":42,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1350,"rage":48,"level":18,"speed":0,"attack":44,"defense":44,"essence":30,"stamina":10,"support":44,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1400,"rage":49,"level":19,"speed":0,"attack":46,"defense":46,"essence":30,"stamina":10,"support":46,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1450,"rage":49,"level":20,"speed":0,"attack":48,"defense":48,"essence":30,"stamina":10,"support":48,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1500,"rage":50,"level":21,"speed":0,"attack":50,"defense":50,"essence":30,"stamina":10,"support":50,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1550,"rage":50,"level":22,"speed":0,"attack":52,"defense":52,"essence":30,"stamina":10,"support":52,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1600,"rage":51,"level":23,"speed":0,"attack":54,"defense":54,"essence":30,"stamina":10,"support":54,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1650,"rage":51,"level":24,"speed":0,"attack":56,"defense":56,"essence":30,"stamina":10,"support":56,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1700,"rage":52,"level":25,"speed":0,"attack":58,"defense":58,"essence":30,"stamina":10,"support":58,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1750,"rage":52,"level":25,"speed":0,"attack":60,"defense":60,"essence":30,"stamina":10,"support":60,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1800,"rage":53,"level":26,"speed":0,"attack":62,"defense":62,"essence":30,"stamina":10,"support":62,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1850,"rage":53,"level":27,"speed":0,"attack":64,"defense":64,"essence":30,"stamina":10,"support":64,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1900,"rage":54,"level":28,"speed":0,"attack":66,"defense":66,"essence":30,"stamina":10,"support":66,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1950,"rage":54,"level":29,"speed":0,"attack":68,"defense":70,"essence":30,"stamina":10,"support":68,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2000,"rage":55,"level":30,"speed":0,"attack":70,"defense":70,"essence":30,"stamina":10,"support":70,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":55,"level":31,"speed":0,"attack":72,"defense":72,"essence":30,"stamina":10,"support":72,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2100,"rage":56,"level":32,"speed":0,"attack":74,"defense":74,"essence":30,"stamina":10,"support":74,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2150,"rage":56,"level":33,"speed":0,"attack":76,"defense":76,"essence":30,"stamina":10,"support":76,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2200,"rage":57,"level":34,"speed":0,"attack":78,"defense":78,"essence":30,"stamina":10,"support":78,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2250,"rage":57,"level":35,"speed":0,"attack":80,"defense":80,"essence":30,"stamina":10,"support":80,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2300,"rage":58,"level":36,"speed":0,"attack":82,"defense":82,"essence":30,"stamina":10,"support":82,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":58,"level":37,"speed":0,"attack":84,"defense":84,"essence":30,"stamina":10,"support":84,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2350,"rage":59,"level":38,"speed":0,"attack":86,"defense":86,"essence":30,"stamina":10,"support":86,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":59,"level":39,"speed":0,"attack":88,"defense":88,"essence":30,"stamina":10,"support":88,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":60,"level":40,"speed":0,"attack":90,"defense":90,"essence":30,"stamina":10,"support":90,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":60,"level":41,"speed":0,"attack":92,"defense":92,"essence":30,"stamina":10,"support":92,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2500,"rage":40,"level":42,"speed":0,"attack":94,"defense":94,"essence":30,"stamina":10,"support":94,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2550,"rage":40,"level":43,"speed":0,"attack":96,"defense":96,"essence":30,"stamina":10,"support":96,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2600,"rage":40,"level":44,"speed":0,"attack":98,"defense":98,"essence":30,"stamina":10,"support":98,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2650,"rage":40,"level":45,"speed":0,"attack":100,"defense":100,"essence":30,"stamina":10,"support":100,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2700,"rage":40,"level":46,"speed":0,"attack":102,"defense":102,"essence":30,"stamina":10,"support":102,"className":"blade_master","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":500,"rage":200,"level":1,"speed":50,"attack":10,"defense":10,"essence":200,"stamina":10,"support":10,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":550,"rage":202,"level":2,"speed":50,"attack":12,"defense":12,"essence":202,"stamina":10,"support":12,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":600,"rage":204,"level":3,"speed":50,"attack":14,"defense":14,"essence":204,"stamina":10,"support":14,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":650,"rage":206,"level":4,"speed":50,"attack":16,"defense":16,"essence":206,"stamina":10,"support":16,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":700,"rage":208,"level":5,"speed":0,"attack":18,"defense":18,"essence":208,"stamina":10,"support":18,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":750,"rage":210,"level":6,"speed":0,"attack":20,"defense":20,"essence":210,"stamina":10,"support":20,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":800,"rage":212,"level":7,"speed":0,"attack":22,"defense":22,"essence":212,"stamina":10,"support":22,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":850,"rage":214,"level":8,"speed":0,"attack":24,"defense":24,"essence":214,"stamina":10,"support":24,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":900,"rage":216,"level":9,"speed":0,"attack":26,"defense":26,"essence":216,"stamina":10,"support":26,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":950,"rage":218,"level":10,"speed":0,"attack":28,"defense":28,"essence":218,"stamina":10,"support":28,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1000,"rage":220,"level":11,"speed":0,"attack":30,"defense":30,"essence":220,"stamina":10,"support":30,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1050,"rage":222,"level":12,"speed":0,"attack":32,"defense":32,"essence":222,"stamina":10,"support":32,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1100,"rage":224,"level":13,"speed":0,"attack":34,"defense":34,"essence":224,"stamina":10,"support":34,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1150,"rage":226,"level":14,"speed":0,"attack":36,"defense":36,"essence":226,"stamina":10,"support":36,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1200,"rage":228,"level":15,"speed":0,"attack":38,"defense":38,"essence":228,"stamina":10,"support":38,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1250,"rage":230,"level":16,"speed":0,"attack":40,"defense":40,"essence":230,"stamina":10,"support":40,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1300,"rage":232,"level":17,"speed":0,"attack":42,"defense":42,"essence":232,"stamina":10,"support":42,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1350,"rage":234,"level":18,"speed":0,"attack":44,"defense":44,"essence":234,"stamina":10,"support":44,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1400,"rage":236,"level":19,"speed":0,"attack":46,"defense":46,"essence":236,"stamina":10,"support":46,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1450,"rage":238,"level":20,"speed":0,"attack":48,"defense":48,"essence":238,"stamina":10,"support":48,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1500,"rage":240,"level":21,"speed":0,"attack":50,"defense":50,"essence":240,"stamina":10,"support":50,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1550,"rage":242,"level":22,"speed":0,"attack":52,"defense":52,"essence":242,"stamina":10,"support":52,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1600,"rage":244,"level":23,"speed":0,"attack":54,"defense":54,"essence":244,"stamina":10,"support":54,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1650,"rage":246,"level":24,"speed":0,"attack":56,"defense":56,"essence":246,"stamina":10,"support":56,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1700,"rage":248,"level":25,"speed":0,"attack":58,"defense":58,"essence":248,"stamina":10,"support":58,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1750,"rage":250,"level":26,"speed":0,"attack":60,"defense":60,"essence":250,"stamina":10,"support":60,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1800,"rage":252,"level":27,"speed":0,"attack":62,"defense":62,"essence":252,"stamina":10,"support":62,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1850,"rage":254,"level":28,"speed":0,"attack":64,"defense":64,"essence":254,"stamina":10,"support":64,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1900,"rage":256,"level":29,"speed":0,"attack":68,"defense":68,"essence":256,"stamina":10,"support":68,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1950,"rage":258,"level":29,"speed":0,"attack":68,"defense":68,"essence":258,"stamina":10,"support":68,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2000,"rage":260,"level":30,"speed":0,"attack":70,"defense":70,"essence":260,"stamina":10,"support":70,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":262,"level":31,"speed":0,"attack":72,"defense":72,"essence":262,"stamina":10,"support":72,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":264,"level":32,"speed":0,"attack":74,"defense":74,"essence":264,"stamina":10,"support":74,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2100,"rage":266,"level":33,"speed":0,"attack":76,"defense":76,"essence":266,"stamina":10,"support":76,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2150,"rage":268,"level":34,"speed":0,"attack":78,"defense":78,"essence":268,"stamina":10,"support":78,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2200,"rage":270,"level":35,"speed":0,"attack":80,"defense":80,"essence":270,"stamina":10,"support":80,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2250,"rage":272,"level":36,"speed":0,"attack":82,"defense":82,"essence":272,"stamina":10,"support":82,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2300,"rage":274,"level":37,"speed":0,"attack":84,"defense":84,"essence":274,"stamina":10,"support":84,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2350,"rage":276,"level":38,"speed":0,"attack":86,"defense":86,"essence":276,"stamina":10,"support":86,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":278,"level":39,"speed":0,"attack":88,"defense":88,"essence":278,"stamina":10,"support":88,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":280,"level":40,"speed":0,"attack":90,"defense":90,"essence":280,"stamina":10,"support":90,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":282,"level":41,"speed":0,"attack":92,"defense":92,"essence":282,"stamina":10,"support":92,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2500,"rage":284,"level":42,"speed":0,"attack":94,"defense":94,"essence":284,"stamina":10,"support":94,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2550,"rage":286,"level":43,"speed":0,"attack":96,"defense":96,"essence":286,"stamina":10,"support":96,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2600,"rage":288,"level":44,"speed":0,"attack":98,"defense":98,"essence":288,"stamina":10,"support":98,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2650,"rage":290,"level":45,"speed":0,"attack":100,"defense":100,"essence":290,"stamina":10,"support":100,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2700,"rage":300,"level":46,"speed":0,"attack":102,"defense":102,"essence":300,"stamina":10,"support":102,"className":"essence_mage","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":500,"rage":40,"level":1,"speed":11,"attack":10,"defense":10,"essence":0,"stamina":10,"support":10,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":550,"rage":40,"level":2,"speed":0,"attack":12,"defense":12,"essence":0,"stamina":10,"support":12,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":600,"rage":41,"level":3,"speed":0,"attack":14,"defense":14,"essence":0,"stamina":10,"support":14,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":650,"rage":41,"level":4,"speed":0,"attack":16,"defense":16,"essence":0,"stamina":10,"support":16,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":700,"rage":42,"level":5,"speed":0,"attack":18,"defense":18,"essence":0,"stamina":10,"support":18,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":750,"rage":42,"level":6,"speed":0,"attack":20,"defense":20,"essence":0,"stamina":10,"support":20,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":800,"rage":43,"level":7,"speed":0,"attack":22,"defense":22,"essence":0,"stamina":10,"support":22,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":850,"rage":43,"level":8,"speed":0,"attack":24,"defense":24,"essence":0,"stamina":10,"support":24,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":900,"rage":44,"level":9,"speed":0,"attack":26,"defense":26,"essence":0,"stamina":10,"support":26,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":950,"rage":44,"level":10,"speed":0,"attack":28,"defense":28,"essence":0,"stamina":10,"support":28,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1000,"rage":45,"level":11,"speed":0,"attack":30,"defense":30,"essence":0,"stamina":10,"support":30,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1050,"rage":45,"level":12,"speed":0,"attack":32,"defense":32,"essence":0,"stamina":10,"support":32,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1100,"rage":46,"level":13,"speed":0,"attack":34,"defense":34,"essence":0,"stamina":10,"support":34,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1150,"rage":46,"level":14,"speed":0,"attack":36,"defense":36,"essence":0,"stamina":10,"support":36,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1200,"rage":47,"level":15,"speed":0,"attack":38,"defense":38,"essence":0,"stamina":10,"support":38,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1250,"rage":47,"level":16,"speed":0,"attack":40,"defense":40,"essence":0,"stamina":10,"support":40,"className":"cyber_ninja","crit_chance":10,"attack_speed":20,"casting_speed":20},{"hp":1300,"rage":48,"level":17,"speed":0,"attack":42,"defense":42,"essence":30,"stamina":10,"support":42,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1350,"rage":48,"level":18,"speed":0,"attack":44,"defense":44,"essence":30,"stamina":10,"support":44,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1400,"rage":49,"level":19,"speed":0,"attack":46,"defense":46,"essence":30,"stamina":10,"support":46,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1450,"rage":49,"level":20,"speed":0,"attack":48,"defense":48,"essence":30,"stamina":10,"support":48,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1500,"rage":50,"level":21,"speed":0,"attack":50,"defense":50,"essence":30,"stamina":10,"support":50,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1550,"rage":50,"level":22,"speed":0,"attack":52,"defense":52,"essence":30,"stamina":10,"support":52,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1600,"rage":51,"level":23,"speed":0,"attack":54,"defense":54,"essence":30,"stamina":10,"support":54,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1650,"rage":51,"level":24,"speed":0,"attack":56,"defense":56,"essence":30,"stamina":10,"support":56,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1700,"rage":52,"level":25,"speed":0,"attack":58,"defense":58,"essence":30,"stamina":10,"support":58,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1750,"rage":52,"level":25,"speed":0,"attack":60,"defense":60,"essence":30,"stamina":10,"support":60,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1800,"rage":53,"level":26,"speed":0,"attack":62,"defense":62,"essence":30,"stamina":10,"support":62,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1850,"rage":53,"level":27,"speed":0,"attack":64,"defense":64,"essence":30,"stamina":10,"support":64,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1900,"rage":54,"level":28,"speed":0,"attack":66,"defense":66,"essence":30,"stamina":10,"support":66,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1950,"rage":54,"level":29,"speed":0,"attack":68,"defense":70,"essence":30,"stamina":10,"support":68,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2000,"rage":55,"level":30,"speed":0,"attack":70,"defense":70,"essence":30,"stamina":10,"support":70,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":55,"level":31,"speed":0,"attack":72,"defense":72,"essence":30,"stamina":10,"support":72,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2100,"rage":56,"level":32,"speed":0,"attack":74,"defense":74,"essence":30,"stamina":10,"support":74,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2150,"rage":56,"level":33,"speed":0,"attack":76,"defense":76,"essence":30,"stamina":10,"support":76,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2200,"rage":57,"level":34,"speed":0,"attack":78,"defense":78,"essence":30,"stamina":10,"support":78,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2250,"rage":57,"level":35,"speed":0,"attack":80,"defense":80,"essence":30,"stamina":10,"support":80,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2300,"rage":58,"level":36,"speed":0,"attack":82,"defense":82,"essence":30,"stamina":10,"support":82,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":58,"level":37,"speed":0,"attack":84,"defense":84,"essence":30,"stamina":10,"support":84,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2350,"rage":59,"level":38,"speed":0,"attack":86,"defense":86,"essence":30,"stamina":10,"support":86,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":59,"level":39,"speed":0,"attack":88,"defense":88,"essence":30,"stamina":10,"support":88,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":60,"level":40,"speed":0,"attack":90,"defense":90,"essence":30,"stamina":10,"support":90,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":60,"level":41,"speed":0,"attack":92,"defense":92,"essence":30,"stamina":10,"support":92,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2500,"rage":40,"level":42,"speed":0,"attack":94,"defense":94,"essence":30,"stamina":10,"support":94,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2550,"rage":40,"level":43,"speed":0,"attack":96,"defense":96,"essence":30,"stamina":10,"support":96,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2600,"rage":40,"level":44,"speed":0,"attack":98,"defense":98,"essence":30,"stamina":10,"support":98,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2650,"rage":40,"level":45,"speed":0,"attack":100,"defense":100,"essence":30,"stamina":10,"support":100,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2700,"rage":40,"level":46,"speed":0,"attack":102,"defense":102,"essence":30,"stamina":10,"support":102,"className":"cyber_ninja","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":500,"rage":200,"level":1,"speed":50,"attack":10,"defense":10,"essence":200,"stamina":10,"support":10,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":550,"rage":202,"level":2,"speed":50,"attack":12,"defense":12,"essence":202,"stamina":10,"support":12,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":600,"rage":204,"level":3,"speed":50,"attack":14,"defense":14,"essence":204,"stamina":10,"support":14,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":650,"rage":206,"level":4,"speed":50,"attack":16,"defense":16,"essence":206,"stamina":10,"support":16,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":700,"rage":208,"level":5,"speed":0,"attack":18,"defense":18,"essence":208,"stamina":10,"support":18,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":750,"rage":210,"level":6,"speed":0,"attack":20,"defense":20,"essence":210,"stamina":10,"support":20,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":800,"rage":212,"level":7,"speed":0,"attack":22,"defense":22,"essence":212,"stamina":10,"support":22,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":850,"rage":214,"level":8,"speed":0,"attack":24,"defense":24,"essence":214,"stamina":10,"support":24,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":900,"rage":216,"level":9,"speed":0,"attack":26,"defense":26,"essence":216,"stamina":10,"support":26,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":950,"rage":218,"level":10,"speed":0,"attack":28,"defense":28,"essence":218,"stamina":10,"support":28,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1000,"rage":220,"level":11,"speed":0,"attack":30,"defense":30,"essence":220,"stamina":10,"support":30,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1050,"rage":222,"level":12,"speed":0,"attack":32,"defense":32,"essence":222,"stamina":10,"support":32,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1100,"rage":224,"level":13,"speed":0,"attack":34,"defense":34,"essence":224,"stamina":10,"support":34,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1150,"rage":226,"level":14,"speed":0,"attack":36,"defense":36,"essence":226,"stamina":10,"support":36,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1200,"rage":228,"level":15,"speed":0,"attack":38,"defense":38,"essence":228,"stamina":10,"support":38,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1250,"rage":230,"level":16,"speed":0,"attack":40,"defense":40,"essence":230,"stamina":10,"support":40,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1300,"rage":232,"level":17,"speed":0,"attack":42,"defense":42,"essence":232,"stamina":10,"support":42,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1350,"rage":234,"level":18,"speed":0,"attack":44,"defense":44,"essence":234,"stamina":10,"support":44,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1400,"rage":236,"level":19,"speed":0,"attack":46,"defense":46,"essence":236,"stamina":10,"support":46,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1450,"rage":238,"level":20,"speed":0,"attack":48,"defense":48,"essence":238,"stamina":10,"support":48,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1500,"rage":240,"level":21,"speed":0,"attack":50,"defense":50,"essence":240,"stamina":10,"support":50,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1550,"rage":242,"level":22,"speed":0,"attack":52,"defense":52,"essence":242,"stamina":10,"support":52,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1600,"rage":244,"level":23,"speed":0,"attack":54,"defense":54,"essence":244,"stamina":10,"support":54,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1650,"rage":246,"level":24,"speed":0,"attack":56,"defense":56,"essence":246,"stamina":10,"support":56,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1700,"rage":248,"level":25,"speed":0,"attack":58,"defense":58,"essence":248,"stamina":10,"support":58,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1750,"rage":250,"level":26,"speed":0,"attack":60,"defense":60,"essence":250,"stamina":10,"support":60,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1800,"rage":252,"level":27,"speed":0,"attack":62,"defense":62,"essence":252,"stamina":10,"support":62,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1850,"rage":254,"level":28,"speed":0,"attack":64,"defense":64,"essence":254,"stamina":10,"support":64,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1900,"rage":256,"level":29,"speed":0,"attack":68,"defense":68,"essence":256,"stamina":10,"support":68,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":1950,"rage":258,"level":29,"speed":0,"attack":68,"defense":68,"essence":258,"stamina":10,"support":68,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2000,"rage":260,"level":30,"speed":0,"attack":70,"defense":70,"essence":260,"stamina":10,"support":70,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":262,"level":31,"speed":0,"attack":72,"defense":72,"essence":262,"stamina":10,"support":72,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2050,"rage":264,"level":32,"speed":0,"attack":74,"defense":74,"essence":264,"stamina":10,"support":74,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2100,"rage":266,"level":33,"speed":0,"attack":76,"defense":76,"essence":266,"stamina":10,"support":76,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2150,"rage":268,"level":34,"speed":0,"attack":78,"defense":78,"essence":268,"stamina":10,"support":78,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2200,"rage":270,"level":35,"speed":0,"attack":80,"defense":80,"essence":270,"stamina":10,"support":80,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2250,"rage":272,"level":36,"speed":0,"attack":82,"defense":82,"essence":272,"stamina":10,"support":82,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2300,"rage":274,"level":37,"speed":0,"attack":84,"defense":84,"essence":274,"stamina":10,"support":84,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2350,"rage":276,"level":38,"speed":0,"attack":86,"defense":86,"essence":276,"stamina":10,"support":86,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2400,"rage":278,"level":39,"speed":0,"attack":88,"defense":88,"essence":278,"stamina":10,"support":88,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":280,"level":40,"speed":0,"attack":90,"defense":90,"essence":280,"stamina":10,"support":90,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2450,"rage":282,"level":41,"speed":0,"attack":92,"defense":92,"essence":282,"stamina":10,"support":92,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2500,"rage":284,"level":42,"speed":0,"attack":94,"defense":94,"essence":284,"stamina":10,"support":94,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2550,"rage":286,"level":43,"speed":0,"attack":96,"defense":96,"essence":286,"stamina":10,"support":96,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2600,"rage":288,"level":44,"speed":0,"attack":98,"defense":98,"essence":288,"stamina":10,"support":98,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2650,"rage":290,"level":45,"speed":0,"attack":100,"defense":100,"essence":290,"stamina":10,"support":100,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5},{"hp":2700,"rage":300,"level":46,"speed":0,"attack":102,"defense":102,"essence":300,"stamina":10,"support":102,"className":"classless","crit_chance":10,"attack_speed":5,"casting_speed":5}]
+
+
+HTTP [18:32:15.937 2026-11-13] GET https://nexus.zenithmmo.com/api/tiny-content/prod/level/public -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:16 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"3df-jvUy7VnkEUr+Gb+Pl3zQf1Fsu8g"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=esyxP4OD%2F2cji%2FcwhkTUGc2x5m1Ch1Erb0QNDL8EuXjD10TZRtcqHLpE2s9UtjoFKSC3fcE85PxMJ0YqTUz2i5VH6a8%2FS%2Fto5%2FQlkrWjGWS12hBHW8sd%2BGGreNlvZ1SaIcMUNFo%3D"}]}
+Server: cloudflare
+CF-RAY: a59f83c7b8639847-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+[{"XP":0,"level":1},{"XP":6000,"level":2},{"XP":14000,"level":3},{"XP":24000,"level":4},{"XP":36000,"level":5},{"XP":50000,"level":6},{"XP":66000,"level":7},{"XP":84000,"level":8},{"XP":104000,"level":9},{"XP":140800,"level":10},{"XP":169180,"level":11},{"XP":199540,"level":12},{"XP":231880,"level":13},{"XP":266200,"level":14},{"XP":302500,"level":15},{"XP":340780,"level":16},{"XP":381040,"level":17},{"XP":423280,"level":18},{"XP":467500,"level":19},{"XP":513700,"level":20},{"XP":561880,"level":21},{"XP":612040,"level":22},{"XP":664180,"level":23},{"XP":718300,"level":24},{"XP":774400,"level":25},{"XP":832480,"level":26},{"XP":892540,"level":27},{"XP":954580,"level":28},{"XP":1018600,"level":29},{"XP":1084600,"level":30},{"XP":1161600,"level":31},{"XP":1249600,"level":32},{"XP":1348600,"level":33},{"XP":1458600,"level":34},{"XP":1579600,"level":35},{"XP":1717100,"level":36},{"XP":1871100,"level":37},{"XP":2041600,"level":38},{"XP":2228600,"level":39},{"XP":2432100,"level":40}]
+
+
+HTTP [18:32:19.943 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:20 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qeS6mi1U59Dr0nQBtwDLLkYCrHNwdsHQt5Rv2yFKBp4PSAZw9lXwozlYqV6sXWm337zBY4YOUWTTsziFJxzqxYIhyPmTfrQz%2FCTJC5inWwUKtDodYxZAuoHZhB%2BypQnjUuZ7Rco%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f83e0da6d9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f83e0da6d9847',t:'MTc5NDU5MTEzOQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f83e0da6d9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:26.347 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:26 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=71RilfkaUXmKDZtV5uXIh20hZpSAktW9YhguZ6nxXdiinAfdWxUoXwh4%2FP6HPYmzOGDegPEfEpppn483w13vFCOeZ0Q2n0lcdWK6i9303dl%2F2jiZ9Xnpolr79I1koqbzX4cKWpE%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f8408dcbd9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f8408dcbd9847',t:'MTc5NDU5MTE0Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f8408dcbd9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:41.954 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:42 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8jTQ6Dx%2FXlC%2BlEQ%2Fj%2FSNqwyAEVsFTg19thBShmK1iywdJ97AICpofYN%2BkhBbPRehzHsgGm3QFa4LN7mnGR4A7s0jzWHfw90On%2BPPDZtS4XJE%2BLKIlUnu%2Bv9Y7h78lYVRpzl0jgk%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f846a4a929847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f846a4a929847',t:'MTc5NDU5MTE2MQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f846a4a929847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:48.878 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:49 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yx5a1EizXvvuzeHWEx%2FHoU3RoxTGKo%2Bwz83itO9gtubOfh6aVzbAfp%2BOY0dQSP8v%2BC9sLmk13BQJsDNxuMp%2BhhnBqOY9QheOunNli3ibPNXQmizL%2FxjQFNBp659CCy%2FgT9iv27w%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f8495bb889847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f8495bb889847',t:'MTc5NDU5MTE2OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f8495bb889847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:32:56.352 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:32:56 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BOvV4tmbPteseTHnoG0DqmockMrfe82vl7T1KyowE%2BO0ldRImI7uhe%2BL6xR5ty3uwcyBqHwZIAs%2FG5P%2BnlLQ9up6u45yBOOaP%2B3XcXFeBLTY8k4V1xCoyjWkAEPI92ojiPzE94g%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f84c46f3f9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f84c46f3f9847',t:'MTc5NDU5MTE3Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f84c46f3f9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:33:02.642 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:33:02 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PC6aXWBpyJSDKv8PxTvdfARDSMAgRbe%2BVMlC7l46UnQru1m5ilS79SGrGsqdSh5CLseERAj9lTB6XmzE28viGjlfWCsVlNXuPOw5BHhAKN4Y0K5C0rzXO%2Bq1HZBoE9soj%2FYeEzc%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f84ebbb7b9847-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f84ebbb7b9847',t:'MTc5NDU5MTE4Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f84ebbb7b9847',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:45:55.410 2026-11-13] GET https://nexus.zenithmmo.com/api/status -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:45:55 GMT
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-tYWEmpNhQ9m4SJr1lb/DcLKcGls"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5vSlcZncl2ugv6lknXGTnELO3agjRyvSewWWtPLSCubTnI06DmQwhFQ9cU2%2FvTblY%2BLYpBAngAobEyZSbg%2BF%2FR6hGk1ZWPVsJFIa2cN6uuyVDqIWjDwF77tdPFJDdStihT1dENw%3D"}]}
+Server: cloudflare
+CF-RAY: a59f97c7f8e8c7c4-DUS
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+--- Response body
+{"message":"","loginEnabled":true}
+
+
+HTTP [18:45:56.787 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:45:56 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Y4qz1iXGYEs5HOuINPVhxFboiOvycrMfaCYYdl3befb0oSUeJK%2BFa14CV3HfjDhLjhVvDF0EZXQDpexy%2F%2F4p62gzSnvEsQXYmyPqYKcaA0vzyKgR%2F3Ve3N9NWr3TSOEkcSgej8s%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f97d1ec03c7c4-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f97d1ec03c7c4',t:'MTc5NDU5MTk1Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f97d1ec03c7c4',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
+HTTP [18:46:03.041 2026-11-13] GET https://nexus.zenithmmo.com/api/news/prod -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:46:03 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"144-rJ4PqryyL1FqhRScT8LhvMhqlvg"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7yb8%2BPmZhah1CYVbH3%2BWSTnZuVHdmgG7rb7yTzC0n2uyDEKvFa6K%2FuSgfdW%2BaLf76HInAeouOdDv0k4AWLTLtv9Ik1IIYlk7fflC4%2FCeqfbqHnFKDzI0BPZMpsiMEOrOq%2FNLgZ0%3D"}]}
+Server: cloudflare
+CF-RAY: a59f97f91c59c7c4-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+[{"time":"2026-11-03T16:02:55.851Z","title":"Shutdown Notice","content":"Zenith\u2019s servers will permanently shut down on December 18, 2026, at 10:00 AM PST, making the game inaccessible. Please do not purchase any more in-game currency. You may continue spending your existing currency in Infinite Realms until shutdown."}]
+
+
+HTTP [18:46:03.162 2026-11-13] GET https://nexus.zenithmmo.com/api/build/56557 -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Zenith-Client-Version: 2.4.0.56557
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:46:03 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5a6-Ti856jYdUQQNGlfCHVtf6XB/lVU"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Yq3c4oFxkn5fg%2FVxHtE9PqSWKQN6TsingIw1vPXEb1siY98BqXCPTvpi7ABDHojkzVl0QSBgKgsrP47cNrNSwd4Qt9p5reuGi4d6wZIpbXN%2F2S6vwOxsM2yJvnMk0mGcFDBKH%2FU%3D"}]}
+Server: cloudflare
+CF-RAY: a59f97f9dc39b238-DUS
+Content-Type: application/json; charset=utf-8
+--- Response body
+{"environment":"prod","featureFlags":{"FULL_BODY_TRACKING":1,"REROLL":1,"SUMMONING":1,"BUG_CATCHING":1,"BOARD_GAMES":1,"BUG_CATCHING_TRAP_PULL":0,"FIX_DUPLICATED_ITEM_STACKS_ON_LOGIN":1,"USE_LOCAL_SYNTH_STATIONS":1,"SEND_QUEST_MESSAGES_FOR_CONSUMING_FOOD":1,"IGNORE_ALL_TIME_LIMITS":0,"USE_NEW_HUD":0,"USE_RADIAL_MENU":0,"ALLOW_SOCIAL_MODE":0,"ENABLE_INVENTORY_SORTING":0,"DELETE_ALL_OWNED_ITEMS_ON_LOGOUT":1,"ENABLE_TOXMOD_PSVR":0,"WINTER_HOLIDAY_EVENT":0,"COSMETIC_EVENTS_2":1,"MAGITEK_EVENT":1,"SHOW_DEPRECATED_BUILD_PANEL":1,"AIM_ASSIST_TOGGLE":1,"DEBUG_RENDERING":0,"ENABLE_GUEST_LOGIN":0,"NDA_BUILD":0,"NO_STREAMING":0,"PVP_ARENA":1,"PVP_FF_MODE":0,"UNITY_LOGS_OFF":1,"WEAKPOINT_TESTS":0,"LIFESKILLS_HARVESTING":1,"CYBER_NINJA":1,"PERFORMANCE_METRICS":1,"VERSION131":1,"VERSION132":1,"NUKE_LIGHT_PROBES":1,"VERSION14":1,"LOWER_QUEST3_GRASS":1,"DISABLE_REFLECTION_PROBE":1,"UNLIMITED_PLAYER_HOUSING":0,"PROFILING_MODE":0,"NO_GC_AFTER_SCENE_UNLOAD":1,"LIGHT_TRAILS":0,"LEADERBOARDS":1,"HIGH_FIVES":0,"DONT_FREE_MEMORY":1,"DEBUG_SHORTCUTS":0,"DEV_SETTINGS":0,"ALWAYS_OFFER_QUESTS":0,"ALWAYS_OFFER_DEVMARKED_QUESTS":0,"TEST_IAP_FOR_FREE":0,"S2S_PROD":1,"FORCE_QUEST_STATE":1,"CROSS_SHARD_CITIES":1,"ALWAYS_FAIL_PLAYFAB":0,"DONT_DO_SEASONAL_RESET_IF_NO_PERSISTENCE":0,"LEADERBOARD_TESTS":0,"S2S_QA":0,"FPS_DISPLAY":0,"INFINITE_VOIP_DISTANCE_ENABLED":0,"SILENCE_PLAYFAB":1,"DISABLE_FAST_FLY_IN_INSTANCES":1,"ALLOW_FAST_FLY":1,"PLAYER_TRADING":1}}
+
+
+HTTP [18:46:03.443 2026-11-13] GET https://nexus.zenithmmo.com/ -> 200
+--- Request headers
+Accept: */*
+Host: nexus.zenithmmo.com
+User-Agent: UnityPlayer/2022.3.12f1 (UnityWebRequest/1.0, libcurl/8.1.1-DEV)
+Accept-Encoding: deflate, gzip
+X-Unity-Version: 2022.3.12f1
+--- Response headers
+Date: Fri, 13 Nov 2026 17:46:03 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Next.js
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jUJeXzOVVWnKlwWCYZfxSfvEhhkM4wFzQKPMWkNYLqemhyIfzmSZLNJ5G9VLr8wojTtDnkhOoclBYfzJdK2hXpku5na%2BSYLhGGC%2BzKDBRpfBTaSWxoTwx%2F4iPlGT9XGXDBAOi4U%3D"}]}
+Vary: Accept-Encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: PUT, GET, POST, OPTIONS, DELETE, PATCH
+Access-Control-Allow-Headers: Authorization,DNT,X-CustomHeader,X-LANG,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Api-Key,X-Device-Id,Access-Control-Allow-Origin
+Access-Control-Max-Age: 1728000
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a59f97fa1c1c716e-DUS
+Content-Type: text/html; charset=utf-8
+--- Response body
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/372f3faddf5ae63d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/372f3faddf5ae63d.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-46e6987d29ee1c78.js" defer=""></script><script src="/_next/static/chunks/framework-0e90cbf53d3785fb.js" defer=""></script><script src="/_next/static/chunks/main-a0853fbc3d9f629b.js" defer=""></script><script src="/_next/static/chunks/pages/_app-4199895c015de2e4.js" defer=""></script><script src="/_next/static/chunks/pages/index-35d1c9fa4cd135d5.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_buildManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_ssgManifest.js" defer=""></script><script src="/_next/static/ZeKP6PxeMiI6rjoClXXap/_middlewareManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"ZeKP6PxeMiI6rjoClXXap","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59f97fa1c1c716e',t:'MTc5NDU5MTk2Mw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59f97fa1c1c716e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+
+
